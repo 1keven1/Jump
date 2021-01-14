@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AppLayer">
+      <UniqueIdentifier>{08283431-92d8-4d79-a9e1-ded91626ac29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework">
+      <UniqueIdentifier>{05724dc1-ce7d-4211-bd64-e6b6cfbf83b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\GtLogger">
+      <UniqueIdentifier>{09e18625-a3cf-4bff-96eb-22980438c516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\GtPresenter">
+      <UniqueIdentifier>{90e4ad28-0441-4bac-8940-d736e780ea66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\GtBitmap">
+      <UniqueIdentifier>{9fe3fdf2-dde7-46e5-aa7f-5634ebb57b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\GtFile">
+      <UniqueIdentifier>{0ce76521-321b-4b89-954a-cd71d8a11340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\header">
+      <UniqueIdentifier>{86e365f3-3cc8-4633-8a65-0296b3197330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\util">
+      <UniqueIdentifier>{e854ffa8-846a-449a-9763-bd5d163046ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\InputSystem">
+      <UniqueIdentifier>{a413360d-2c50-4f47-b24c-0886bccf4bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\Painter">
+      <UniqueIdentifier>{5e86b194-3536-4b89-b19b-d2b49cca59f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{f4fa036f-71d1-4249-9532-adb75b8e1f2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GtFramework.h">
+      <Filter>GtFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="GtFrameworkApp.h">
+      <Filter>GtFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>GtFramework\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>GtFramework\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>GtFramework\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GtBitmap.h">
+      <Filter>GtFramework\GtBitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="GtFile.h">
+      <Filter>GtFramework\GtFile</Filter>
+    </ClInclude>
+    <ClInclude Include="GtGameDemo.h">
+      <Filter>AppLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GtLogger.h">
+      <Filter>GtFramework\GtLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="GtPainter.h">
+      <Filter>GtFramework\Painter</Filter>
+    </ClInclude>
+    <ClInclude Include="GtPresenter.h">
+      <Filter>GtFramework\GtPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="prerequisite.h">
+      <Filter>GtFramework\header</Filter>
+    </ClInclude>
+    <ClInclude Include="stableheader.h">
+      <Filter>GtFramework\header</Filter>
+    </ClInclude>
+    <ClInclude Include="util\bbox.h">
+      <Filter>GtFramework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\color.h">
+      <Filter>GtFramework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\float2.h">
+      <Filter>GtFramework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\input.h">
+      <Filter>GtFramework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\int2.h">
+      <Filter>GtFramework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\timer.h">
+      <Filter>GtFramework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="GtActor.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GtPlayer.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GtFramework.cpp">
+      <Filter>GtFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>GtFramework\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>GtFramework\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GtBitmap.cpp">
+      <Filter>GtFramework\GtBitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="GtFile.cpp">
+      <Filter>GtFramework\GtFile</Filter>
+    </ClCompile>
+    <ClCompile Include="GtGameDemo.cpp">
+      <Filter>AppLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>GtFramework\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GtLogger.cpp">
+      <Filter>GtFramework\GtLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="GtPainter.cpp">
+      <Filter>GtFramework\Painter</Filter>
+    </ClCompile>
+    <ClCompile Include="GtPresenter.cpp">
+      <Filter>GtFramework\GtPresenter</Filter>
+    </ClCompile>
+    <ClCompile Include="stableheader.cpp">
+      <Filter>GtFramework\header</Filter>
+    </ClCompile>
+    <ClCompile Include="GtActor.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GtPlayer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
