@@ -53,8 +53,6 @@ void GtPlayer::OnUpdate(float fElapsedTime)
 		}
 
 		Move(m_jumpForce * fElapsedTime);
-
-		//the limit of the jump height
 	}
 
 	Move(m_gravity * fElapsedTime);

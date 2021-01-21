@@ -41,12 +41,11 @@ GtBitmap::GtBitmap(const std::string& name) :m_width(0), m_height(0), m_bpp(0), 
 
 		if (m_bpp == 32)//32位纹理直接拷贝
 		{
-			//memcpy(m_data, colorStart, 4 * m_width * m_height);
-			
-			for ( uint32 i=0; i<m_width*m_height; ++i )
+
+			for (uint32 i = 0; i < m_width * m_height; ++i)
 			{
-					m_data[i] = (colorStart[i*4+0]<<0) | (colorStart[i*4+1]<<8) |
-						(colorStart[i*4+2]<<16) | (colorStart[i*4+3]<<24);
+				m_data[i] = (colorStart[i * 4 + 0] << 0) | (colorStart[i * 4 + 1] << 8) |
+					(colorStart[i * 4 + 2] << 16) | (colorStart[i * 4 + 3] << 24);
 			}
 
 		}
